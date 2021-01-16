@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20680" started-at="2021-01-16T04:17:30 EET" finished-at="2021-01-16T04:17:51 EET">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20680" started-at="2021-01-16T04:17:30 EET" finished-at="2021-01-16T04:17:51 EET">
+      <class name="Tests.WorksheetSectionTest">
+        <test-method status="PASS" signature="startDriver(java.lang.String)[pri:0, instance:Tests.WorksheetSectionTest@1b68ddbd]" name="startDriver" is-config="true" duration-ms="14213" started-at="2021-01-16T04:17:16 EET" finished-at="2021-01-16T04:17:30 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method status="PASS" signature="openHomePage()[pri:1, instance:Tests.WorksheetSectionTest@1b68ddbd]" name="openHomePage" duration-ms="2008" started-at="2021-01-16T04:17:30 EET" finished-at="2021-01-16T04:17:32 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomePage -->
+        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.WorksheetSectionTest@1b68ddbd]" name="screenshotOnFailure" is-config="true" duration-ms="1" started-at="2021-01-16T04:17:32 EET" finished-at="2021-01-16T04:17:32 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openHomePage status=SUCCESS method=WorksheetSectionTest.openHomePage()[pri:1, instance:Tests.WorksheetSectionTest@1b68ddbd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method status="PASS" signature="openSearchPageResults()[pri:0, instance:Tests.WorksheetSectionTest@1b68ddbd]" name="openSearchPageResults" duration-ms="11122" started-at="2021-01-16T04:17:32 EET" depends-on-methods="Tests.WorksheetSectionTest.openHomePage" finished-at="2021-01-16T04:17:43 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSearchPageResults -->
+        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.WorksheetSectionTest@1b68ddbd]" name="screenshotOnFailure" is-config="true" duration-ms="0" started-at="2021-01-16T04:17:43 EET" finished-at="2021-01-16T04:17:43 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openSearchPageResults status=SUCCESS method=WorksheetSectionTest.openSearchPageResults()[pri:0, instance:Tests.WorksheetSectionTest@1b68ddbd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method status="PASS" signature="openSecondLink()[pri:0, instance:Tests.WorksheetSectionTest@1b68ddbd]" name="openSecondLink" duration-ms="3277" started-at="2021-01-16T04:17:43 EET" depends-on-methods="Tests.WorksheetSectionTest.openSearchPageResults" finished-at="2021-01-16T04:17:47 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSecondLink -->
+        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.WorksheetSectionTest@1b68ddbd]" name="screenshotOnFailure" is-config="true" duration-ms="1" started-at="2021-01-16T04:17:47 EET" finished-at="2021-01-16T04:17:47 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openSecondLink status=SUCCESS method=WorksheetSectionTest.openSecondLink()[pri:0, instance:Tests.WorksheetSectionTest@1b68ddbd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method status="PASS" signature="openSheetPage()[pri:0, instance:Tests.WorksheetSectionTest@1b68ddbd]" name="openSheetPage" duration-ms="4223" started-at="2021-01-16T04:17:47 EET" depends-on-methods="Tests.WorksheetSectionTest.openSecondLink" finished-at="2021-01-16T04:17:51 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSheetPage -->
+        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.WorksheetSectionTest@1b68ddbd]" name="screenshotOnFailure" is-config="true" duration-ms="0" started-at="2021-01-16T04:17:51 EET" finished-at="2021-01-16T04:17:51 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openSheetPage status=SUCCESS method=WorksheetSectionTest.openSheetPage()[pri:0, instance:Tests.WorksheetSectionTest@1b68ddbd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method status="PASS" signature="stopDriver()[pri:0, instance:Tests.WorksheetSectionTest@1b68ddbd]" name="stopDriver" is-config="true" duration-ms="714" started-at="2021-01-16T04:17:51 EET" finished-at="2021-01-16T04:17:52 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- Tests.WorksheetSectionTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
